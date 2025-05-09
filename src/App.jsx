@@ -1,7 +1,12 @@
-import React from "react";
+import React from "react"; // 안해도 됨
+import NameInput from "./NameInput";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <NameInput />
+    </div>
+  );
 };
 
 export default App;
