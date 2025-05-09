@@ -15,7 +15,12 @@ const ItemList = () => {
   };
   return (
     <div>
-      <h2 className="text-2xl">Items</h2>
+      <h2
+        className="text-2xl
+      "
+      >
+        Items
+      </h2>
       <ul>
         {items.map((item, index) => (
           <li key={index}>{item}</li>
