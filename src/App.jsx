@@ -1,9 +1,9 @@
-import TimerSwitch from "./TimerSwitch";
+import MovieList from "./MovieList";
 
 const App = () => {
   return (
     <div>
-      <TimerSwitch />
+      <MovieList />
     </div>
   );
 };
